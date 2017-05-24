@@ -467,7 +467,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d9ea2', end
 
 .doctor img {
     display: inline-block;
-    width: 25%;
+    width: 70%;
+    max-width: 12rem;
     border: 0.3rem solid white;
     border-radius: 50%;    
     vertical-align:middle;
@@ -652,7 +653,6 @@ h6{
     .doctor img {
         display: block;
         margin: auto;
-        width: 70%;
     }
     
     .doctor p{
