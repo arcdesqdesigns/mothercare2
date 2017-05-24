@@ -132,18 +132,18 @@ header {
 }
 
 #serv {
-    background: #00a6bd url(img/woman-1284353_1920a.jpg) center center fixed;
+    background: #a89ca0 url(img/woman-1284353_1920a.jpg) center center fixed;
     background-size: cover;
 }
 
 #contct {
-    background: #00a6bd url(img/phone-1662579_1920b.jpg) center bottom fixed;
+    background: #a89ca0 url(img/phone-1662579_1920b.jpg) center bottom fixed;
     box-shadow: inset 0 0 3rem rgba(0,0,0,0.8);
     background-size: cover;
 }
 
 #doctr {
-    background: #00a6bd url(img/dr3.jpg) center center fixed;
+    background: #a89ca0 url(img/dr3.jpg) center center fixed;
     box-shadow: inset 0 0 3rem rgba(0,0,0,0.8);
     background-size: cover;
 }
