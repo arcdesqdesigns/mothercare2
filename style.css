@@ -671,10 +671,11 @@ h6{
     .menu1 li{display: block; width:100%; text-align: center;font-size: 1rem; padding: 0;margin:0;background-color: #675da3;border-bottom: 0.1rem solid #999;}
     .menu1 li a {padding: 0.85rem; margin:0; color: #fff;}   
     .menu1 li a:hover { background-color: #3d9ea2;} 
-    .hamburger{display: block; background-color:#4682b4; max-width:  width:40%; max-width:7rem; text-align: center; padding: 0.5rem 0; text-decoration: none; color: #fff;line-height: 2rem; float: right;text-transform: uppercase; font-size: 1.2rem;font-family: 'Roboto Condensed', sans-serif;}
+    .hamburger{display: block; background-color:#4682b4; text-align: center; padding: 1.1rem 1rem ; text-decoration: none; color: #fff;line-height: 2rem; float: right;text-transform: uppercase; font-size: 1.2rem;font-family: 'Roboto Condensed', sans-serif;}
     .hamburger:hover{color:#fff; background-color: #3d9ea2;}
     .slide-down {height: 12rem;}
     #heading {margin-left:0; text-align: center;}
+    
         
 }
 @media only screen and (max-width:1024px) {     
@@ -688,6 +689,17 @@ h6{
         display: block;
             width: 100%;
     }
+    
+    #primenu ul {
+    display: block;
+            clear: both;
+}
+    
+    #primenu ul li {
+    width: 33.33%;        
+    display: block;
+        float: left;
+}
     
     
     
