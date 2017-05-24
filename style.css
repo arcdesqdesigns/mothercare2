@@ -633,6 +633,11 @@ h6{
         min-height: 30vh;
     }
     
+    div.gallery {
+    display: block;
+    width: 98%;
+}
+    
 }
 @media only screen and (max-width:768px) {
 
@@ -642,6 +647,15 @@ h6{
     text-align: center;
     padding: 0 1rem;
 }
+    
+    .doctor img {
+        display: block;
+        margin: auto;
+    }
+    
+    .doctor {
+        text-align: center;
+    }
 
 .mcmap {
     display: none;
