@@ -236,8 +236,7 @@ border-top: solid #fff 0.5rem;
 }
 
 .fixedwidth{
-    margin: auto;
-    width: 90%;
+    margin: 1rem;
     max-width: 1024px;
     clear: both;
 }
