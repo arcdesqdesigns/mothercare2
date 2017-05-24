@@ -236,7 +236,8 @@ border-top: solid #fff 0.5rem;
 }
 
 .fixedwidth{
-    margin: 1rem;
+    margin: auto;
+    width: 98%;
     max-width: 1024px;
     clear: both;
 }
@@ -629,6 +630,10 @@ h6{
         min-height: 80vh;
     }
     
+    #primenu li a {
+        min-height: 30vh;
+    }
+    
 }
 @media only screen and (max-width:768px) {
 
@@ -675,7 +680,9 @@ h6{
     .hamburger:hover{color:#fff; background-color: #3d9ea2;}
     .slide-down {height: 12rem;}
     #heading {margin-left:0; text-align: center;}
-    
+    #primenu ul li {
+    width: 50% !important;
+}
         
 }
 @media only screen and (max-width:1024px) {     
