@@ -629,8 +629,11 @@ h6{
 @media only screen and (max-width:480px) {
     html,body {font-size: 16px;}
     .hero {
-        min-height: 80vh;
+        min-height: 80vh;}
+            #primenu ul li a{
+                height: 30vh;
     }
+
     
 }
 @media only screen and (max-width:768px) {
@@ -646,8 +649,13 @@ h6{
     display: none;
 }
     
+            #primenu ul li {
+    width: 50% !important;
+}
+    
     .cardrow {
      display: block;
+        
     }
     
     .card{
@@ -691,6 +699,18 @@ h6{
         display: block;
             width: 100%;
     }
+    
+            #primenu ul {
+    display: block;
+            clear: both;
+}
+    
+    #primenu ul li {
+    width: 33.33%;        
+    display: block;
+        float: left;
+}
+    
     
 }
 @media only screen and (min-width:480px) and (max-width:1140px) {
