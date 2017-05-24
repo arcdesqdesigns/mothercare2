@@ -25,7 +25,6 @@ html, body {
     height: 100%;
     font-size: 20px;
     color: #333;
-    height: 100%;
     background: #ffffff;    
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -238,8 +237,7 @@ border-top: solid #fff 0.5rem;
 }
 
 .fixedwidth{
-    margin: auto;
-    width: 90%;
+    margin: 1rem;
     max-width: 1024px;
     clear: both;
 }
