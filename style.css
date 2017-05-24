@@ -355,7 +355,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #contact_form {
-    width: 35rem;
+    width: 98%;
+    max-width: 35rem;
     margin: auto;
     padding: 0.5rem;
     text-align: left;
