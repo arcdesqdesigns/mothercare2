@@ -639,10 +639,6 @@ h6{
     width: 98%;
 }
     
-    .doctor img {
-        width: 70% !important;
-    }
-    
 }
 @media only screen and (max-width:768px) {
 
@@ -656,7 +652,7 @@ h6{
     .doctor img {
         display: block;
         margin: auto;
-        width: 50%;
+        width: 70%;
     }
     
     .doctor p{
